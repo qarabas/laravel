@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ $dir->title }}</h5>
                     <form action="{{ route('dir.destroy', $dir->id) }}" method="POST">
-                        <a class="btn btn-info" href="{{ route('dir.show', $dir->id) }}">&#128269;</a>
+                        <a class="btn btn-info" href="{{ route('dir.show', $dir->id).'?page=1' }}">&#128269;</a>
                         <a class="btn btn-primary" href="{{ route('dir.edit', $dir->id) }}">&#9998;</a>
                         @csrf
                         @method('DELETE')

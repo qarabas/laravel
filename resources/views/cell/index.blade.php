@@ -13,7 +13,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ $cell->title }}</h5>
                     <form action="{{ route('cell.destroy', $cell->id) }}" method="POST">
-                        <a class="btn btn-info" href="{{ route('cell.show', $cell->id) }}">&#128269;</a>
+                        <a class="btn btn-info" href="{{ route('cell.show', $cell->id).'?page=1' }}">&#128269;</a>
 {{--                        <a class="btn btn-primary" href="{{ route('cell.edit', $cell->id) }}">Edit</a>--}}
                         @csrf
                         @method('DELETE')

@@ -17,6 +17,21 @@ class Dir extends Model
         return $dir_id ?  File::where('dir_id', '=', $dir_id)->orderBy($orderBy['field'], $orderBy['orderBy'])->simplePaginate($limit)->pluck('title', 'id') : false;
     }
 
+    public static function getDirIds()
+    {
+        $dirs = Dir::getDirs()->toArray();
+        $ids = array();
+        foreach ($dirs as $dir){
+            $ids[] = $dir['id'];
+        }
+        return $ids;
+    }
+
+    public static function getDirs()
+    {
+        return Dir::all();
+    }
+
     public function getParent($parent_id){
         $title = DB::table('arches')->where('id', '=', $parent_id)->pluck('title', 'id');
         return $title;

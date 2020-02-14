@@ -49,9 +49,9 @@
                         Кол-во элементов на странице
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="{{ $order_by_field['url'].'&limit=8' }}">8</a>
-                        <a class="dropdown-item" href="{{ $order_by_field['url'].'&limit=16' }}">16</a>
-                        <a class="dropdown-item" href="{{ $order_by_field['url'].'&limit=24' }}">24</a>
+                        <a class="dropdown-item" href="{{ '?page='.$order_by_field['page'].'&limit=8' }}">8</a>
+                        <a class="dropdown-item" href="{{ '?page='.$order_by_field['page'].'&limit=16' }}">16</a>
+                        <a class="dropdown-item" href="{{ '?page='.$order_by_field['page'].'&limit=24' }}">24</a>
                     </div>
                 </div>
             </div>

@@ -39,10 +39,20 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="form-group ml-3 mb-4">
-                <strong>Название папки:</strong>
+        <div class="col-xs-12 col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group col-lg-5 col-md-4 ml-3 mb-4">
+                <strong>Архив :</strong>
                 {{ $dir->title }}
+            </div>
+            <div class="dropdown pull-right">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Кол-во элементов на странице
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="{{ '?page='.$order_by_field['page'].'&limit=8' }}">8</a>
+                    <a class="dropdown-item" href="{{ '?page='.$order_by_field['page'].'&limit=16' }}">16</a>
+                    <a class="dropdown-item" href="{{ '?page='.$order_by_field['page'].'&limit=24' }}">24</a>
+                </div>
             </div>
         </div>
     </div>
@@ -66,7 +76,7 @@
             <ul class="pagination">
                 @if((int)$order_by_field['page'] !== 1)
                     <li class="page-item">
-                        <a class="page-link" href="{{ $order_by_field['prev_page'].'?page=1' }}" rel="prev">« Предыдущая страница</a>
+                        <a class="page-link" href="{{ $order_by_field['prev_page'] }}" rel="prev">« Предыдущая страница</a>
                     </li>
                 @endif
                 <li class="page-item">

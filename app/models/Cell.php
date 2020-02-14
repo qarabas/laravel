@@ -28,4 +28,18 @@ class Cell extends Model
     {
         return $cell_id ?  Dir::where('cell_id', '=', $cell_id)->orderBy($orderBy['field'], $orderBy['orderBy'])->simplePaginate($limit)->pluck('title', 'id') : false;
     }
+
+    public static function getCells()
+    {
+        return Cell::all();
+    }
+    public static function getCellIds()
+    {
+        $cells = Cell::getCells()->toArray();
+        $ids = array();
+        foreach ($cells as $cell){
+            $ids[] = $cell['id'];
+        }
+        return $ids;
+    }
 }

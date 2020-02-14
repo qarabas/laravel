@@ -57,6 +57,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
@@ -150,6 +164,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1U0DCUISYM5s2XhZ3Vmp6j9Bbp5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -161,6 +176,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -197,7 +213,7 @@
       <workItem from="1574492313749" duration="17283000" />
       <workItem from="1574512675771" duration="4508000" />
       <workItem from="1581336202298" duration="64080000" />
-      <workItem from="1581581980982" duration="10556000" />
+      <workItem from="1581581980982" duration="20421000" />
     </task>
     <servers />
   </component>
@@ -205,6 +221,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="43" key="#Notifications" timestamp="1581623587384">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="43" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1581623587384" />
     <state x="457" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581338720344">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -213,14 +233,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="101" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1581413093562" />
-    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581594957027">
+    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1581675650431">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1581594957027" />
+    <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1581675650431" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1581623489964">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1581623489964" />
     <state x="369" y="199" key="NewPhpClassDialog" timestamp="1581416231283">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="369" y="199" key="NewPhpClassDialog/0.0.1366.768@0.0.1366.768" timestamp="1581416231283" />
+    <state x="184" y="27" key="SettingsEditor" timestamp="1581623498215">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581623498215" />
+    <state x="275" y="118" key="Vcs.Push.Dialog.v2" timestamp="1581680482515">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="118" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1581680482515" />
     <state x="92" y="92" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1581594061209">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

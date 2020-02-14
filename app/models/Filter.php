@@ -16,7 +16,9 @@ class Filter
     public static function buildFilterArr(Request $request)
     {
         $page_url = str_replace('page=' . $request->page, 'page=', $request->fullUrl());
-        $limit_url = str_replace('&limit=' . $request->limit, '', $request->fullUrl());
+        $limit_url = str_replace('&limit=' . 8, '', $request->fullUrl());
+        $limit_url = str_replace('&limit=' . 16, '', $limit_url);
+        $limit_url = str_replace('&limit=' . 24, '', $limit_url);
         $limit = 8;
         if ($request->limit){
             $limit = $request->limit;

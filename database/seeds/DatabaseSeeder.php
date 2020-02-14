@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use app\models\Arch;
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,5 +13,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+         $this->call(ArchesTableSeeder::class);
+         $this->call(CellsTableSeeder::class);
+         $this->call(DirsTableSeeder::class);
+         $this->call(FilesTableSeeder::class);
     }
 }
